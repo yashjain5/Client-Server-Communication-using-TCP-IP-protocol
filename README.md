@@ -28,7 +28,8 @@ Now open two different terminals, one for the server and one for the client. It 
 
 Once it shows "Successful connection", the client and server can communicate with each other.
 
-![ClientServerTCP](https://user-images.githubusercontent.com/70306618/109428548-7d508000-7a1d-11eb-8624-64425c388b52.png)
+
+![ClientServerProject](https://user-images.githubusercontent.com/70306618/109429881-4fbb0500-7a24-11eb-86c8-accdc9f6881b.png)
 
 # Further Improvements
 
