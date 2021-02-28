@@ -12,6 +12,22 @@ For finding 22 modulus 5: MOD22,5
 
 Note - If one of the numbers is missing (like ADD,4) then the missing number will be treated as 0. The answer is NOT-DEFINED if any number is divided by 0.
 
+# Running on Linux
+Go to the directory in which testServer.cpp and testClient.cpp are present and compile the codes using g++ command.  
+```
+g++ testServer.cpp -o server.out
+g++ testClient.cpp -o client.out
+```  
+Now open two different terminals, one for the server and one for the client. It is important to first run the server code so that the client can connect to the desired server. We need to provide a port number as argument, here we are choosing port number as 2000. We will be connecting on localhost, that is on the computer itself.
+
+### On server side
+`./server.out 2000`
+
+### On client side
+`./client.out localhost 2000`
+
+Once it shows "Successful connection", the client and server can communicate with each other.
+
 ![ClientServerTCP](https://user-images.githubusercontent.com/70306618/109428548-7d508000-7a1d-11eb-8624-64425c388b52.png)
 
 # Further Improvements
